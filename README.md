@@ -2,21 +2,11 @@
 
 ### Goal: Build a simple front-end app that displays data returned from an api that would be beneficial to someone in the trades (construction, hvac, plumbing, ect)
 
-### How to submit your code for review:
+### My project: I created a Heat Index Recommendations App
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![screenshot of the webpage](assets/photos/screenshot.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### How does it work?
+### - User can input a zip code to check the heat index of that area
+### - User will also see the 'Classificaiton' that is awarded depending on the heat index. 
+### - User can view recommendations in the chart at the bottom
