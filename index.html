@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <title>Heat Index</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Carter+One&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Honk:MORF@15&family=Lilita+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Titan+One&family=Unkempt:wght@400;700&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Heat Index App</h1>
+    <section class="info">
+        <p class="firstP-first">High heat combined with humidity can create dangerous conditions for outdoor workers. To prevent heat-related illnesses, you have to know what kind of conditions you're walking into first.</p>
+        <p class="firstP-second">Use this app to check the Heat Index for your zipcode and see suggestions for how best to protect yourself.</p>
+        <section>
+            <input id= 'zipCode' type="text" placeholder="enter zipcode">
+            <button>Submit</button>
+        </section>
+        <section>
+            <h2>Today's heat index is: </h2>
+            <h4>Classification: </h4>
+        </section>
+        <p class="secondP-first">What is a heat index?</p>
+        <p class="secondP-second">Heat index takes into account the humidity and the temperature to give you the actual temperature that the human body feels. Our bodies sweat to regulate our body temperatures but if it's so hot that our sweat is not able to evaporate, our body's temparature will not regualte and we can begin to experience heat-related illnesses. See below for recommendations depending on the heat index!</p>
+        <table>
+        <thead>
+            <tr>
+                <th class="heatRecs">Heat Index Recommendations</th>
+            </tr>           
+        </thead>
+        <tbody>
+            <tr class = 'first'>
+                <th class= "none">Classification: None</th>
+                <td>No potential for heat-related illness</td>
+            </tr>
+            <tr class = 'second'>
+                <th class = "caution">Classification: Caution</th>
+                <td>Water: Drink at least 8oz of cool water every 20 min</td>
+                <td>Gear: Loose fitting, light-colored, breathable clothing. A wide-brimmed</td>
+                <td>Monitoring: Best to acclimatize outdoor workers for 7-14days</td>
+            </tr>
+            <tr class = 'third'>
+                <th class = "extreme">Classification: Extreme Caution</th>
+                <td>Water: Continue to drink 8oz of water every 20min </td>
+                <td>Management: Organize regular breaks in a cooler area, either in shaded or air-conditioned areas</td>
+            </tr>
+            <tr class= "fourth">
+                <th class= "danger">Classification: Danger</th>
+                <td>Water: Increase water intake to 24oz (4 cups) every hour</td>
+                <td>Monitoring: Limit working in the sun to less than 30 min. Make breaks mandatory with active cooling stations.</td>
+            </tr>
+            <tr class="fifth">
+                <th class="vBad">Classiication: Extreme Danger</th>
+                <td>Monitoring: Stop ALL outdoor work unlessa absolutely necessary.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    </section>
+
+    <img src="" alt="">
+
+    <script type="text/javascript" src="assets/main.js"></script>
+</body>
+</html>
