@@ -67,6 +67,14 @@ h1{
     margin-bottom: 1.5rem;
     color: rgba(0, 0, 0, 0.651);
 }
+#zipCode, button{
+    font-size: 30px;
+    margin-left: 1rem;
+}
+.input{
+    display: flex;
+    gap: 1rem;
+}
 h2{
     font-family: "Caacupe One",Arial, Helvetica, sans-serif;
     font-size: 4rem;
